@@ -506,3 +506,17 @@
      border-radius: 20px;
      padding: 5px 30px;
  }
+
+ /* footer start  */
+ footer {
+     background: #2b3c53;
+     width: 100%;
+ }
+
+ .footernav {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+ }
