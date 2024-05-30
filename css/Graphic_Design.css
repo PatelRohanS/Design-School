@@ -293,7 +293,7 @@
  #study {
      width: 100%;
      background: #5e9a62;
-     padding: 300px 0;
+     padding: 150px 0 300px;
      overflow: hidden;
  }
 
@@ -305,18 +305,22 @@
 
  .study_graphic::before {
      content: "";
-     background: url(/Design-School/img/Study_befor.png);
+     background: url(/Design-School/img/Study_befor.png) no-repeat;
      position: absolute;
      width: 1177px;
      height: 175px;
+     top: -207px;
+     right: -85px;
  }
 
  .study_graphic::after {
      content: "";
-     background: url(/Design-School/img/Study_after.png);
-     width: 1177px;
-     height: 175px;
+     background: url(/Design-School/img/Study_after.png) no-repeat;
+     width: 1265px;
+     height: 250px;
      position: absolute;
+     left: -135px;
+     bottom: -300px;
  }
 
  .study_graphic h2 {
@@ -325,6 +329,7 @@
      font-weight: 400;
      font-family: "Righteous";
      text-align: center;
+     margin: 0;
  }
 
  .study_graphic p {
@@ -340,6 +345,8 @@
      letter-spacing: 2px;
      color: #5e9a62;
      border: 2px solid white;
+     padding: 5px 30px;
+     border-radius: 20px;
      background-color: #ffffff;
      font-weight: 600;
      text-decoration: none;
