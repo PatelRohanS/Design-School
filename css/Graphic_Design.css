@@ -520,3 +520,13 @@
      flex-wrap: wrap;
      align-items: center;
  }
+
+ .footer_Design_school {
+     width: 40%;
+ }
+
+ .footer_about,
+ .footer_services,
+ .footer_other {
+     width: 20%;
+ }
