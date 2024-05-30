@@ -206,7 +206,7 @@
  }
 
  .about_content h2 {
-    margin: 10px 0;
+     margin: 10px 0;
      font-size: 67px;
      color: #ffffff;
      font-weight: 400;
@@ -238,7 +238,8 @@
      padding: 40px 0;
  }
 
- .graphic_work_gallery {
+ .graphic_work_gallery,
+ .graphic_work_gallery_pasheing {
      width: 100%;
      display: flex;
      justify-content: space-between;
@@ -282,4 +283,8 @@
      font-family: "Poppins";
      text-align: center;
      margin: 10px 0;
+ }
+
+ .graphic_work_gallery_pasheing {
+     margin-top: 30px;
  }
