@@ -184,7 +184,7 @@
      background-color: #5e9a62;
      width: 100%;
      overflow: hidden;
-     padding: 40px 0;
+     padding: 80px 0;
  }
 
  .graphic_about {
@@ -200,12 +200,13 @@
  }
 
  .about_img img {
-     width: 70%;
+     width: 80%;
      margin: 0 auto;
      display: table;
  }
 
  .about_content h2 {
+    margin: 10px 0;
      font-size: 67px;
      color: #ffffff;
      font-weight: 400;
@@ -213,7 +214,7 @@
  }
 
  .about_content p {
-     font-size: 25px;
+     font-size: 27px;
      color: #ffffff;
      font-weight: 400;
      font-family: "Poppins";
