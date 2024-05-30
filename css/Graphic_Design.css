@@ -110,38 +110,38 @@
  .design_school {
      text-align: center;
      width: 100%;
-     margin: 40px 0;
+     margin: 90px 0;
      position: relative;
  }
 
  .design_school::before {
      content: "";
-     background: url(/img/design_after_before.png);
+     background: url(/Design-School/img/design_after_before.png);
      position: absolute;
      width: 600px;
      height: 600px;
-     top: -225px;
+     top: -270px;
      left: -290px;
  }
 
  .design_school::after {
      content: "";
-     background: url(/img/design_after_before.png);
+     background: url(/Design-School/img/design_after_before.png);
      position: absolute;
      width: 600px;
      height: 600px;
-     top: 12px;
-     right: -290px;
+     top: -20px;
+     right: -325px;
  }
 
  .design_center {
-     width: 50%;
+     width: 55%;
      margin: 0 auto;
      text-align: center;
  }
 
  .design_center h1 {
-     font-size: 83px;
+     font-size: 70px;
      letter-spacing: 2px;
      color: #2b3c53;
      font-weight: 400;
@@ -150,7 +150,7 @@
  }
 
  .design_center h3 {
-     font-size: 29px;
+     font-size: 26px;
      letter-spacing: 1px;
      color: #2b3c53;
      font-weight: 500;
@@ -159,7 +159,7 @@
  }
 
  .design_center p {
-     font-size: 28px;
+     font-size: 25px;
      letter-spacing: 1px;
      color: #2b3c53;
      font-weight: 400;
