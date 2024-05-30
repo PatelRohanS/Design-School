@@ -293,7 +293,7 @@
  #study {
      width: 100%;
      background: #5e9a62;
-     padding: 150px 0 300px;
+     padding: 200px 0 300px;
      overflow: hidden;
  }
 
@@ -309,7 +309,7 @@
      position: absolute;
      width: 1177px;
      height: 175px;
-     top: -207px;
+     top: -205px;
      right: -85px;
  }
 
@@ -395,7 +395,25 @@
      font-family: "Poppins";
  }
 
+ .Countact_online_education {
+     text-align: center;
+     width: 100%;
+ }
 
+ .Countact_online_education h3 {
+     font-size: 50px;
+     color: #ffffff;
+     font-weight: 300;
+     font-family: "Poppins";
+ }
+
+ .Countact_online_education h4 {
+     font-size: 42px;
+     letter-spacing: 1px;
+     color: #ffffff;
+     font-weight: 600;
+     font-family: "Righteous";
+ }
 
  .Img_online_education img {
      width: 80%;
