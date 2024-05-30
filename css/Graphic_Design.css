@@ -369,7 +369,34 @@
      flex-wrap: wrap;
  }
 
- .Online_education_img,
+ .Online_education_content,
  .Img_online_education {
      width: 50%;
+ }
+
+ .Online_education_content h2 {
+     font-size: 83px;
+     letter-spacing: 8px;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Righteous";
+ }
+
+ .Online_education_content ul {
+     display: block;
+     list-style-type: disc;
+ }
+
+ .Online_education_content li {
+     font-size: 24px;
+     padding: 10px 0;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Poppins";
+ }
+
+
+
+ .Img_online_education img {
+     width: 80%;
  }
