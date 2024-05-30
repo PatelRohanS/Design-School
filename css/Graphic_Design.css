@@ -353,3 +353,23 @@
      font-family: "Poppins";
      text-align: center;
  }
+
+ /* section Online Education start  */
+ #Online_education {
+     width: 100%;
+     background: #2b3c53;
+     padding: 40px 0;
+ }
+
+ .Online_education_img {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .Online_education_img,
+ .Img_online_education {
+     width: 50%;
+ }
