@@ -315,4 +315,11 @@
      text-align: center;
  }
 
- .study_graphic {}
+ .button a {
+     font-size: 21px;
+     letter-spacing: 2px;
+     color: #5e9a62;
+     font-weight: 600;
+     font-family: "Poppins";
+     text-align: center;
+ }
