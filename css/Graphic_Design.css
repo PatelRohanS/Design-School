@@ -292,11 +292,31 @@
  /* section study start  */
  #study {
      width: 100%;
+     background: #5e9a62;
+     padding: 300px 0;
+     overflow: hidden;
  }
 
  .study_graphic {
      width: 100%;
      text-align: center;
+     position: relative;
+ }
+
+ .study_graphic::before {
+     content: "";
+     background: url(/Design-School/img/Study_befor.png);
+     position: absolute;
+     width: 1177px;
+     height: 175px;
+ }
+
+ .study_graphic::after {
+     content: "";
+     background: url(/Design-School/img/Study_after.png);
+     width: 1177px;
+     height: 175px;
+     position: absolute;
  }
 
  .study_graphic h2 {
@@ -319,7 +339,10 @@
      font-size: 21px;
      letter-spacing: 2px;
      color: #5e9a62;
+     border: 2px solid white;
+     background-color: #ffffff;
      font-weight: 600;
+     text-decoration: none;
      font-family: "Poppins";
      text-align: center;
  }
