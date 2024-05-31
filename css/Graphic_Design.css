@@ -958,4 +958,41 @@
          justify-content: center;
      }
 
+     .design_school {
+         margin: 60px 0;
+     }
+
+     #about {
+         padding: 60px 0;
+     }
+
+ }
+
+ @media only screen and (max-width: 320px) {
+     .container {
+         width: 300px;
+         margin: 0 10px;
+     }
+
+     .design_center h1 {
+         font-size: 42px;
+     }
+
+     .design_center h3 {
+         font-size: 14px;
+     }
+
+     .study_graphic h2 {
+         font-size: 42px;
+     }
+
+     .design_center p {
+         font-size: 12px;
+     }
+
+     .Online_education_content li,
+     .Creativity_content p {
+         font-size: 12px;
+     }
+
  }
