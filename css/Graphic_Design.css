@@ -238,8 +238,7 @@
      padding: 40px 0;
  }
 
- .graphic_work_gallery,
- .graphic_work_gallery_pasheing {
+ .graphic_work_gallery {
      width: 100%;
      display: flex;
      justify-content: space-between;
@@ -283,10 +282,6 @@
      font-family: "Poppins";
      text-align: center;
      margin: 10px 0;
- }
-
- .graphic_work_gallery_pasheing {
-     margin-top: 30px;
  }
 
  /* section study start  */
@@ -526,9 +521,10 @@
  }
 
  .footer_about,
- .footer_services{
+ .footer_services {
      width: 19%;
  }
+
  .footer_other {
      width: 16%;
  }
@@ -574,4 +570,10 @@
      color: #ffffff;
      font-weight: 300;
      font-family: "Poppins";
+ }
+
+ @media only screen and (max-width: 900px) {
+     nav ul li {
+         margin-right: 25px;
+     }
  }
