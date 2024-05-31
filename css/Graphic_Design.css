@@ -530,3 +530,13 @@
  .footer_other {
      width: 20%;
  }
+
+ .footer_Design_school h2,
+ .footer_about h2,
+ .footer_services h2,
+ .footer_other h2 {
+     font-size: 33px;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Righteous";
+ }
