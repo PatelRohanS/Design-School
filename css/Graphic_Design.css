@@ -77,12 +77,11 @@
 
      ul {
          position: fixed;
-         top: 80px;
+         top: 73px;
          right: -100%;
-         background-color: green;
-         width: 100%;
-         height: 100vh;
+         background-color: #2b3c53;
          display: flex;
+         width: 100%;
          flex-direction: column;
          justify-content: center;
          align-items: center;
@@ -680,5 +679,121 @@
      .footer_services ul li a,
      .footer_other ul li a {
          font-size: 18px;
+     }
+ }
+
+ @media only screen and (max-width: 768px) {
+     .container {
+         width: 688px;
+     }
+
+     .Online_education_content ul {
+         position: unset;
+     }
+
+     nav ul li {
+         margin: 10px 0;
+     }
+
+     .design_center h1 {
+         font-size: 50px;
+     }
+
+     .design_center h3 {
+         font-size: 15px;
+     }
+
+     .design_center p {
+         font-size: 14px;
+     }
+
+     .design_school::before {
+         left: -400px;
+     }
+
+     .design_school::after {
+         top: -54px;
+         right: -380px;
+     }
+
+     .about_content h2,
+     .study_graphic h2,
+     #Creativity h2 {
+         font-size: 50px;
+     }
+
+     .about_content p,
+     .study_graphic p {
+         font-size: 16px;
+     }
+
+     .about_content button,
+     .button a,
+     .Creativity_button a {
+         font-size: 18px;
+     }
+
+     #Work h2,
+     .Online_education_content h2 {
+         font-size: 60px;
+     }
+
+     .graphic_work h3 {
+         font-size: 24px;
+     }
+
+     .graphic_work p {
+         font-size: 16px;
+     }
+
+     .Online_education_content li {
+         font-size: 14px;
+     }
+
+     .Countact_online_education h3 {
+         font-size: 30px;
+     }
+
+     .Countact_online_education h4 {
+         font-size: 25px;
+     }
+
+     .Ellipse h5,
+     .Triangle h5 {
+         font-size: 18px;
+     }
+
+     .Creativity_content p,
+     .footer_Design_school p {
+         font-size: 15px;
+     }
+
+     .footer_Design_school ul,
+     .footer_about ul,
+     .footer_services ul,
+     .footer_other ul {
+         position: unset;
+     }
+
+     .footer_Design_school h2,
+     .footer_about h2,
+     .footer_services h2,
+     .footer_other h2 {
+         font-size: 26px;
+     }
+
+     .footer_about ul li a,
+     .footer_services ul li a,
+     .footer_other ul li a {
+         font-size: 15px;
+     }
+
+     .footer_Design_school ul li a img {
+         width: 100%;
+     }
+
+     .footer_Design_school ul {
+         flex-direction: unset;
+         justify-content: start;
      }
  }
