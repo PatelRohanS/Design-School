@@ -10,7 +10,7 @@
  }
 
  .container {
-     width: 1243px;
+     width: 1216px;
      margin: 0 50px;
  }
 
@@ -131,8 +131,8 @@
      position: absolute;
      width: 600px;
      height: 600px;
-     top: -20px;
-     right: -295px;
+     top: -50px;
+     right: -320px;
  }
 
  .design_center {
@@ -214,7 +214,7 @@
  }
 
  .about_content p {
-     font-size: 27px;
+     font-size: 35px;
      color: #ffffff;
      font-weight: 400;
      font-family: "Poppins";
@@ -310,7 +310,7 @@
      width: 1177px;
      height: 175px;
      top: -205px;
-     right: -75px;
+     right: -85px;
  }
 
  .study_graphic::after {
@@ -522,13 +522,15 @@
  }
 
  .footer_Design_school {
-     width: 36%;
+     width: 42%;
  }
 
  .footer_about,
- .footer_services,
- .footer_other {
+ .footer_services{
      width: 19%;
+ }
+ .footer_other {
+     width: 16%;
  }
 
  .footer_Design_school h2,
@@ -542,7 +544,7 @@
  }
 
  .footer_Design_school p {
-     font-size: 22px;
+     font-size: 24px;
      color: #ffffff;
      font-weight: 300;
      font-family: "Poppins";
@@ -561,13 +563,14 @@
  .footer_about ul li,
  .footer_services ul li,
  .footer_other ul li {
-     padding: 5 px 0;
+     padding: 5px 0;
+     margin: 0;
  }
 
  .footer_about ul li a,
  .footer_services ul li a,
  .footer_other ul li a {
-     font-size: 18px;
+     font-size: 24px;
      color: #ffffff;
      font-weight: 300;
      font-family: "Poppins";
