@@ -518,17 +518,16 @@
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
-     align-items: center;
  }
 
  .footer_Design_school {
-     width: 40%;
+     width: 36%;
  }
 
  .footer_about,
  .footer_services,
  .footer_other {
-     width: 20%;
+     width: 19%;
  }
 
  .footer_Design_school h2,
@@ -537,6 +536,38 @@
  .footer_other h2 {
      font-size: 33px;
      color: #ffffff;
-     font-weight: 400;
+     font-weight: 500;
      font-family: "Righteous";
+ }
+
+ .footer_Design_school p {
+     font-size: 22px;
+     color: #ffffff;
+     font-weight: 300;
+     font-family: "Poppins";
+ }
+
+ .footer_Design_school ul li {
+     margin-right: 10px;
+ }
+
+ .footer_about ul,
+ .footer_services ul,
+ .footer_other ul {
+     display: block;
+ }
+
+ .footer_about ul li,
+ .footer_services ul li,
+ .footer_other ul li {
+     padding: 5px 0;
+ }
+
+ .footer_about ul li a,
+ .footer_services ul li a,
+ .footer_other ul li a {
+     font-size: 18px;
+     color: #ffffff;
+     font-weight: 300;
+     font-family: "Poppins";
  }
