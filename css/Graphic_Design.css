@@ -131,7 +131,7 @@
      position: absolute;
      width: 600px;
      height: 600px;
-     top: -50px;
+     top: -20px;
      right: -320px;
  }
 
@@ -214,7 +214,7 @@
  }
 
  .about_content p {
-     font-size: 35px;
+     font-size: 27px;
      color: #ffffff;
      font-weight: 400;
      font-family: "Poppins";
