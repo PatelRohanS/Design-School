@@ -10,7 +10,7 @@
  }
 
  .container {
-     width: 1216px;
+     width: 1243px;
      margin: 0 50px;
  }
 
@@ -132,7 +132,7 @@
      width: 600px;
      height: 600px;
      top: -20px;
-     right: -325px;
+     right: -295px;
  }
 
  .design_center {
@@ -310,7 +310,7 @@
      width: 1177px;
      height: 175px;
      top: -205px;
-     right: -85px;
+     right: -75px;
  }
 
  .study_graphic::after {
@@ -560,7 +560,7 @@
  .footer_about ul li,
  .footer_services ul li,
  .footer_other ul li {
-     padding: 5px 0;
+     padding: 5 px 0;
  }
 
  .footer_about ul li a,
