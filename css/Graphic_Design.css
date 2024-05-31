@@ -691,6 +691,10 @@
          position: unset;
      }
 
+     nav ul {
+         z-index: 1000;
+     }
+
      nav ul li {
          margin: 10px 0;
      }
