@@ -996,3 +996,23 @@
      }
 
  }
+
+ @media only screen and (max-width: 1024px) {
+     .container {
+         width: 924px;
+         margin: 0 50px;
+     }
+
+     nav {
+         overflow-x: hidden;
+     }
+
+     .li_img {
+         margin-right: 0;
+     }
+
+     nav ul li {
+         margin-right: 35px;
+     }
+
+ }
