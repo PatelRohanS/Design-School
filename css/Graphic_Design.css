@@ -1094,9 +1094,10 @@
      }
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 425px) {
      .container {
-         width: 350px;
+         width: 385px;
+         margin: 0 20px;
      }
 
      .design_school::before,
@@ -1108,11 +1109,95 @@
          margin: 50px 0;
      }
 
+     .design_center h3 {
+         font-size: 17px;
+     }
+
+     .about_content p,
+     .study_graphic p {
+         font-size: 17px;
+     }
+
+     .study_graphic h2 {
+         font-size: 55px;
+     }
+
+     .graphic_work {
+         width: 100%;
+     }
+
+     .graphic_work h3 {
+         font-size: 38px;
+     }
+
+     .graphic_work p {
+         font-size: 26px;
+     }
+
+     .Online_education_content ul {
+         list-style-type: none;
+     }
+
+     .Online_education_content li {
+         text-align: center;
+         font-size: 15px;
+     }
+
+     .Countact_online_education h3 {
+         font-size: 38px;
+     }
+
+     .Countact_online_education h4 {
+         font-size: 34px;
+     }
+
+     .Ellipse h5,
+     .Triangle h5 {
+         font-size: 20px;
+     }
+
+     .Creativity_content p,
+     .footer_Design_school p {
+         font-size: 16px;
+     }
+
+     .footer_other,
+     .footer_about,
+     .footer_services {
+         width: 50%;
+         text-align: center;
+     }
+
+     .footer_other {
+         display: table;
+         margin: 0 auto;
+     }
+
+     .footer_about ul li a,
+     .footer_services ul li a,
+     .footer_other ul li a {
+         font-size: 20px;
+     }
+
+     .footer_Design_school h2,
+     .footer_about h2,
+     .footer_services h2,
+     .footer_other h2 {
+         font-size: 36px;
+     }
+
+ }
+
+ @media only screen and (max-width: 400px) {
+     .container {
+         width: 350px;
+     }
+
      .design_center h1 {
          font-size: 45px;
      }
 
-     .design_center h3 {
+     /* .design_center h3 {
          font-size: 18px;
      }
 
@@ -1179,25 +1264,8 @@
      .Ellipse h5,
      .Triangle h5 {
          font-size: 20px;
-     }
+     } */
 
-     .footer_other,
-     .footer_about,
-     .footer_services {
-         width: 50%;
-         text-align: center;
-     }
-
-     .footer_other {
-         display: table;
-         margin: 0 auto;
-     }
-
-     .footer_about ul li a,
-     .footer_services ul li a,
-     .footer_other ul li a {
-         font-size: 20px;
-     }
  }
 
  @media only screen and (max-width: 360px) {
