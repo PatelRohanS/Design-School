@@ -978,6 +978,122 @@
 
  @media only screen and (max-width: 767px) {}
 
+ @media only screen and (max-width: 500px) {
+     .container {
+         width: 450px;
+         margin: 0 25px;
+     }
+
+     .design_center {
+         width: 90%;
+     }
+
+     .design_school::before {
+         left: -420px;
+         top: -360px;
+     }
+
+     .design_school::after {
+         top: 20px;
+         right: -422px;
+     }
+
+     .about_img,
+     .about_content,
+     .Online_education_content,
+     .Img_online_education,
+     .Img_Creativity,
+     .Creativity_content {
+         width: 100%;
+     }
+
+     .about_content {
+         text-align: center;
+     }
+
+     .about_content h2,
+     .study_graphic h2,
+     #Creativity h2 {
+         font-size: 60px;
+     }
+
+     .about_content p,
+     .study_graphic p {
+         font-size: 18px;
+     }
+
+     .graphic_work {
+         width: 50%;
+     }
+
+     .Online_education_content,
+     .Creativity_content {
+         text-align: center;
+     }
+
+     .Online_education_content li {
+         text-align: start;
+         font-size: 18px;
+     }
+
+     .Ellipse h5,
+     .Triangle h5 {
+         font-size: 22px;
+     }
+
+     .Countact_online_education h4 {
+         font-size: 38px;
+     }
+
+     .Countact_online_education h3 {
+         font-size: 44px;
+     }
+
+     .Img_online_education img {
+         width: 80%;
+         display: table;
+         margin: 0 auto;
+         padding-top: 30px;
+     }
+
+     #Creativity h2 {
+         font-size: 52px;
+     }
+
+     .Creativity_content p,
+     .footer_Design_school p {
+         font-size: 18px;
+     }
+
+     .footer_Design_school {
+         width: 100%;
+         text-align: center;
+     }
+
+     .footer_Design_school ul {
+         justify-content: center;
+     }
+
+     .footer_other,
+     .footer_about,
+     .footer_services {
+         width: 33.33%;
+     }
+
+     .footer_about ul li a,
+     .footer_services ul li a,
+     .footer_other ul li a {
+         font-size: 17px;
+     }
+
+     .footer_Design_school h2,
+     .footer_about h2,
+     .footer_services h2,
+     .footer_other h2 {
+         font-size: 30px;
+     }
+ }
+
  @media only screen and (max-width: 360px) {
      .container {
          width: 320px;
