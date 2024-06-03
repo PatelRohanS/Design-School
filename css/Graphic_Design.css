@@ -777,6 +777,85 @@
      }
  }
 
+ @media only screen and (max-width: 800px) {
+     .container {
+         width: 720px;
+     }
+
+     nav ul li {
+         margin-right: 15px;
+     }
+
+     .design_center h1 {
+         font-size: 42px;
+     }
+
+     .design_center h3 {
+         font-size: 16px;
+     }
+
+     .design_center p {
+         font-size: 15px;
+     }
+
+     .design_school::before {
+         top: -280px;
+     }
+
+     .about_content p,
+     .study_graphic p {
+         font-size: 16px;
+     }
+
+     .graphic_work h3 {
+         font-size: 24px;
+     }
+
+     .graphic_work p {
+         font-size: 16px;
+     }
+
+     .about_content h2,
+     .study_graphic h2,
+     #Creativity h2 {
+         font-size: 50px;
+     }
+
+     #Work h2,
+     .Online_education_content h2 {
+         font-size: 60px;
+     }
+
+     .Online_education_content li {
+         font-size: 14px;
+     }
+
+     .Countact_online_education h3 {
+         font-size: 36px;
+     }
+
+     .Countact_online_education h4 {
+         font-size: 28px;
+     }
+
+     .footer_about ul li a,
+     .footer_services ul li a,
+     .footer_other ul li a {
+         font-size: 15px;
+     }
+
+     .footer_Design_school h2,
+     .footer_about h2,
+     .footer_services h2,
+     .footer_other h2 {
+         font-size: 28px;
+     }
+
+     .footer_Design_school ul li a img {
+         width: 90%;
+     }
+ }
+
  @media only screen and (max-width: 768px) {
      .container {
          width: 688px;
