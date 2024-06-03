@@ -571,6 +571,101 @@
      font-family: "Poppins";
  }
 
+ @media only screen and (max-width: 1024px) {
+     .container {
+         width: 924px;
+         margin: 0 50px;
+     }
+
+     nav {
+         overflow-x: hidden;
+     }
+
+     .li_img {
+         margin-right: 0;
+     }
+
+     nav ul li {
+         margin-right: 35px;
+     }
+
+     .design_center h1 {
+         font-size: 55px;
+     }
+
+     .design_center h3 {
+         font-size: 19px;
+     }
+
+     .design_center p {
+         font-size: 18px;
+     }
+
+     #Work h2 {
+         font-size: 75px;
+         margin: 45px 0;
+     }
+
+     .about_content p {
+         font-size: 22px;
+     }
+
+     .graphic_work h3 {
+         font-size: 30px;
+     }
+
+     .graphic_work p {
+         font-size: 20px;
+     }
+
+     .study_graphic::before,
+     .study_graphic::after {
+         width: 100%;
+     }
+
+     .study_graphic p {
+         font-size: 22px;
+     }
+
+     .Online_education_content h2 {
+         font-size: 75px;
+         margin: 45px 0;
+     }
+
+     .Online_education_content li {
+         font-size: 18px;
+         margin-right: 20px;
+     }
+
+     .Countact_online_education h3 {
+         font-size: 45px;
+         margin: 40px 0;
+     }
+
+     .Countact_online_education h4 {
+         font-size: 40px;
+     }
+
+     .Ellipse h5,
+     .Triangle h5 {
+         font-size: 28px;
+     }
+
+     .Creativity_content p {
+         font-size: 23px;
+     }
+
+     .footer_Design_school p {
+         font-size: 20px;
+     }
+
+     .footer_about ul li a,
+     .footer_services ul li a,
+     .footer_other ul li a {
+         font-size: 20px;
+     }
+ }
+
  @media only screen and (max-width: 900px) {
      nav ul li {
          margin-right: 25px;
@@ -995,99 +1090,4 @@
          font-size: 12px;
      }
 
- }
-
- @media only screen and (max-width: 1024px) {
-     .container {
-         width: 924px;
-         margin: 0 50px;
-     }
-
-     nav {
-         overflow-x: hidden;
-     }
-
-     .li_img {
-         margin-right: 0;
-     }
-
-     nav ul li {
-         margin-right: 35px;
-     }
-
-     .design_center h1 {
-         font-size: 55px;
-     }
-
-     .design_center h3 {
-         font-size: 19px;
-     }
-
-     .design_center p {
-         font-size: 18px;
-     }
-
-     #Work h2 {
-         font-size: 75px;
-         margin: 45px 0;
-     }
-
-     .about_content p {
-         font-size: 22px;
-     }
-
-     .graphic_work h3 {
-         font-size: 30px;
-     }
-
-     .graphic_work p {
-         font-size: 20px;
-     }
-
-     .study_graphic::before,
-     .study_graphic::after {
-         width: 100%;
-     }
-
-     .study_graphic p {
-         font-size: 22px;
-     }
-
-     .Online_education_content h2 {
-         font-size: 75px;
-         margin: 45px 0;
-     }
-
-     .Online_education_content li {
-         font-size: 18px;
-         margin-right: 20px;
-     }
-
-     .Countact_online_education h3 {
-         font-size: 45px;
-         margin: 40px 0;
-     }
-
-     .Countact_online_education h4 {
-         font-size: 40px;
-     }
-
-     .Ellipse h5,
-     .Triangle h5 {
-         font-size: 28px;
-     }
-
-     .Creativity_content p {
-         font-size: 23px;
-     }
-
-     .footer_Design_school p {
-         font-size: 20px;
-     }
-
-     .footer_about ul li a,
-     .footer_services ul li a,
-     .footer_other ul li a {
-         font-size: 20px;
-     }
  }
